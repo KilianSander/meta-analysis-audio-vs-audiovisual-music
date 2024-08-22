@@ -69,22 +69,21 @@ references <-
             x = reference
           )
         ]
-      # reference[
-      #   str_detect(
-      #     string = reference,
-      #     pattern = "^LG  - "
-      #   )
-      # ] %<>%
-      #   str_remove_all(
-      #     pattern = "^LG  - "
-      #   ) %>%
-      #   language_to_iso[.] %>%
-      #   str_c(
-      #     "LG  - ",
-      #     .
-      #   )
+      language_lines <-
+        which(
+          str_detect(
+            string = reference,
+            pattern = "^LG  - "
+          )
+        )
+      reference[language_lines] <-
+        reference[language_lines] %>%
+        str_replace_all(
+          pattern = language_to_iso
+        )
+      reference
     }
   )
 
-references %>%
+references %<>%
   reduce(c)
