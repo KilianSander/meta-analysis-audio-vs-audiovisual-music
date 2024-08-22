@@ -1,5 +1,9 @@
 # Clean PsycInfo export --------------------------------------------------------
 #
+# In the export dialogue, select `Citavi` for Format and `Complete Reference`
+# for Fields.
+# Store the exported files in the folder `data-raw`.
+#
 # Process `.ovd` files exported by ovid / PsycInfo
 # * Use ISO 639 codes
 # * Remove data base / archive field
@@ -18,6 +22,23 @@ fields_to_clean <-
   c(
     "DB  - ",
     "VN  - Ovid Technologies",
+    "AN  -",
+    "PH  - ",
+    "AI  - ",
+    "MA  - ",
+    "CQ  - ",
+    "IN  -",
+    "PE  -",
+    "IT  -",
+    "PU  -",
+    "FO  -",
+    "CC  -",
+    "PO  -",
+    "LO  -",
+    "MD  -",
+    "GS  -",
+    "RF  -",
+    "UP  -",
     "PG  - No Pagination Specified",
     "PS  - First Posting",
     "XL  - https://ovidsp.ovid.com/"
@@ -64,3 +85,6 @@ references <-
       #   )
     }
   )
+
+references %>%
+  reduce(c)
