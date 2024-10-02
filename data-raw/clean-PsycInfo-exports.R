@@ -87,3 +87,9 @@ references <-
 
 references %<>%
   reduce(c)
+
+writeLines(
+  text = references,
+  con = "data-raw/PsycInfo-results.ovd",
+  sep = "\n"
+)
