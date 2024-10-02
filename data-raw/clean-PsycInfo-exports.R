@@ -90,6 +90,6 @@ references %<>%
 
 writeLines(
   text = references,
-  con = "data-raw/PsycInfo-results.ovd",
+  con = "data/PsycInfo-results.ovd",
   sep = "\n"
 )
