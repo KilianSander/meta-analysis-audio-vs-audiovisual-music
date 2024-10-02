@@ -88,6 +88,21 @@ references <-
 references %<>%
   reduce(c)
 
+id_lines <-
+  which(
+    str_detect(
+      string = references,
+      pattern = "^<[0-9]"
+    )
+  )
+
+references[id_lines] <-
+  str_c(
+    "<",
+    seq_along(id_lines),
+    ". >"
+  )
+
 writeLines(
   text = references,
   con = "data/PsycInfo-results.ovd",
