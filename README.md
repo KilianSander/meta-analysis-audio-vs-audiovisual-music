@@ -14,6 +14,8 @@ presentation of music performances. They considered studies from 1940 to
 
 This repository contains material to extend the original meta-analysis.
 
+## References
+
 <div id="refs" class="references csl-bib-body hanging-indent"
 entry-spacing="0" line-spacing="2">
 

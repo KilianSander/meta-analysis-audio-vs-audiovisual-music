@@ -28,3 +28,8 @@ They considered studies from 1940 to 2010 with dependent variables such as
 "liking", "expressiveness", "overall quality", and "overall impression".
 
 This repository contains material to extend the original meta-analysis.
+
+## References
+
+::: {#refs}
+:::
