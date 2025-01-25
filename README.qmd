@@ -1,0 +1,23 @@
+---
+title: "meta-analysis-audio-vs-audiovisual-music"
+format:
+  gfm:
+    preview-mode: raw
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+## Meta-Analysis of the Effect of Presentation Mode (Audio vs. Audiovisual) of Music Performances
+
+## Currently postponed!
+
