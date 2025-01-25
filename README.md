@@ -1,9 +1,8 @@
-# meta-analysis-audio-vs-audiovisual-music
+# Meta-Analysis of the Effect of Audio vs. Audio-Visual Presentation of
+Music Performances
 
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-## Meta-Analysis of the Effect of Presentation Mode (Audio vs. Audiovisual) of Music Performances
-
-## Currently postponed!
+## ⚠ Currently postponed

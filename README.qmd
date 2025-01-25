@@ -1,5 +1,5 @@
 ---
-title: "meta-analysis-audio-vs-audiovisual-music"
+title: "Meta-Analysis of the Effect of Audio vs. Audio-Visual Presentation of Music Performances"
 format:
   gfm:
     preview-mode: raw
@@ -17,7 +17,5 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-## Meta-Analysis of the Effect of Presentation Mode (Audio vs. Audiovisual) of Music Performances
-
-## Currently postponed!
+## &#9888; Currently postponed
 
