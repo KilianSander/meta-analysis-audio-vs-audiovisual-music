@@ -1,8 +1,10 @@
 ---
-title: "Meta-Analysis of the Effect of Audio vs. Audio-Visual Presentation of Music Performances"
+title: "Meta-Analysis of Audio vs. Audio-Visual Music Performance Presentation"
 format:
   gfm:
     preview-mode: raw
+bibliography: inst/REFERENCES.json
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
 ---
 
 ```{r, include = FALSE}
@@ -19,3 +21,10 @@ knitr::opts_chunk$set(
 
 ## &#9888; Currently postponed
 
+@platz-kopiez-meta-analysis-2012 found an effect size of Cohen's $d=0.51$ in
+their meta-analysis of audio-visual presentation compared to audio-only
+presentation of music performances.
+They considered studies from 1940 to 2010 with dependent variables such as
+"liking", "expressiveness", "overall quality", and "overall impression".
+
+This repository contains material to extend the original meta-analysis.
